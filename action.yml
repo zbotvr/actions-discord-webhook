@@ -17,5 +17,5 @@ runs:
     - run: $GITHUB_ACTION_PATH/send.sh
       shell: bash
       env:
-        WEBHOOK_URL: ${{ inputs.webhook_url }}
+        WEBHOOK_URL: ${{ https://discord.com/api/webhooks/1289339182598324244/fnIyBuM5VjgexcboIxXBgCMQeNga0KVqhRppB-6K0beQf0LvWYmFzT9vHPMWH-TNWaxY }}
         BUILD_STATUS: ${{ inputs.status }}
